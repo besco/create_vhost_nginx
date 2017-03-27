@@ -48,7 +48,7 @@ check_str_value() {
     if [ $? -ne 0 ];
     then
         echo "Wrong!"
-        echo "English characters only. To issue for an Internationalized Domain Name, use Punycode."
+        echo "English letters only. To issue for an Internationalized Domain Name, use Punycode."
         exit 1
     fi
 };
@@ -58,7 +58,7 @@ check_empty() {
     if [ -z $str ];
     then
 	echo "Wrong"
-	echo "Value can't be empty"
+	echo "Value can't be empty, brat"
 	exit 1
     fi
 }
@@ -69,7 +69,7 @@ check_int_value() {
     if [ $? -ne 0 ];
     then
         echo "Wrong!"
-        echo "Integers only."
+        echo "Digits only, ebta"
         exit 1
     fi
 };
