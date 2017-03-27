@@ -89,7 +89,7 @@ echo "ok"
 if [ -z "$moredomains" -a $cmd -ne 1 ];
 then
     echo "Is there any additional domains?"
-    echo "Enter additional domains separate by blank."
+    echo "Enter additional domains separate by space."
     echo -n "If not, just press enter: "
     read moredomains
 fi
