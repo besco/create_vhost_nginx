@@ -1,1 +1,1 @@
-# Totaly depricated
+# Totaly deprecated
